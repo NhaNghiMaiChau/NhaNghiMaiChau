@@ -14,6 +14,7 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+
 body {
   margin: 0;
   padding: 0;
@@ -83,6 +84,14 @@ html {
   }
 }
 
+input, input:before, input:after {
+  -webkit-user-select: initial;
+  -khtml-user-select: initial;
+  -moz-user-select: initial;
+  -ms-user-select: initial;
+  user-select: initial;
+}
+
 .form-control {
   border: none !important;
 }
@@ -106,6 +115,10 @@ html {
 .form-control, .btn{
   border-radius: 0px !important;
   width: 100%;
+}
+
+.carousel-control.left, .carousel-control.right{
+  background-image:none !important;
 }
 
 /*body {
