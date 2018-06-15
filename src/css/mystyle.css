@@ -83,19 +83,8 @@ html {
   }
 }
 
-#btn-book{
-  /* padding: 5px 35%; */
-  background: #7195ec;
-  color: #fff;
-  border-radius: 4px;
-  width: 100%;
-  margin-top: 20px;
-}
-
-input {
-  min-width: 100%;
-  max-width: 100%;
-  border: none;
+.form-control {
+  border: none !important;
 }
 
 .booking_form{
@@ -112,6 +101,11 @@ input {
 
 .text-red{
   color: red;
+}
+
+.form-control, .btn{
+  border-radius: 0px !important;
+  width: 100%;
 }
 
 /*body {
