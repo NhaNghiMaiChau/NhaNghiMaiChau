@@ -7,12 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Nhà Nghỉ Tuấn Anh</title>
   <link rel="stylesheet" href="src/css/mystyle.css" />
-  <link rel="stylesheet" href="src/css/bootstrap.min.css" />
+  <!-- <link rel="stylesheet" href="src/css/bootstrap.min.css" /> -->
 
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </head>
 
 <body>
@@ -114,52 +112,71 @@
         <p>
           <noscript>Lưu ý: Cần phải có JavaScript với nội dung này.</noscript>
         </p>
-        <p>Các trường được đánh dấu
-          <span class="text-red">*</span> là bắt buộc</p>
+        <h3>Đặt Phòng</h3>
+        <p><i>Các trường được đánh dấu (<span class="text-red">*</span>) là bắt buộc</i></p>
         <div>
-          <div id="" class="col-md-4 col-sm-4 col-xs-6 form-group">
-              <label for="" class="">Họ và tên <span class="text-red">*</span></label>
-              <input id="" class="form-control" name="" type="text" value="" />
-          </div>
-          <div id="" class="col-md-4 col-sm-4 col-xs-6 form-group">
-              <label for="" class="">Điện thoại <span class="text-red">*</span></label>
-              <input id="" class="form-control" name="" type="text" value="" />
-          </div>
-          <div id="" class="col-md-4 col-sm-4 col-xs-6 form-group">
-              <label for="" class="">Email <span class="text-red">*</span></label>
-              <input id="" class="form-control" name="" type="text" value="" />
-          </div>
-          <div id="" class="col-md-4 col-sm-4 col-xs-6 form-group">
-              <label for="" class="">Loại phòng</label>
-              <input id="" class="form-control" name="" type="text" value="" />
-          </div>
-          <div id="" class="col-md-4 col-sm-4 col-xs-6 form-group">
-              <label for="" class="">Ngày đi</label>
-              <input id="" class="form-control" name="" type="text" value="" />
-          </div>
-          <div id="" class="col-md-4 col-sm-4 col-xs-6 form-group">
-              <label for="" class="">Ngày về</label>
-              <input id="" class="form-control" name="" type="text" value="" />
-          </div>
-          <div id="" class="col-md-4 col-sm-4 col-xs-6 form-group">
-              <label for="" class="">Số người (Tổng)</label>
-              <input id="" class="form-control" name="" type="text" value="" />
-          </div>
-          <div id="" class="col-md-4 col-sm-4 col-xs-6 form-group">
-              <label for="" class="">Số trẻ em</label>
-              <input id="" class="form-control" name="" type="text" value="" />
-          </div>
-          <div id="" class="col-md-4 col-sm-4 form-group col-btn-book">
-              <label for="" class=""></label>
-              <input id="btn-book" class="btn btn-info" type="button" value="BOOK NOW">
-          </div>
+          <form>
+            <div id="" class="col-md-4 col-sm-4 form-group">
+                <label for="" class="">Họ và tên <span class="text-red">*</span></label>
+                <input id="" class="form-control" name="" type="text" value="" />
+            </div>
+            <div id="" class="col-md-4 col-sm-4 form-group">
+                <label for="" class="">Điện thoại <span class="text-red">*</span></label>
+                <input id="" class="form-control" name="" type="text" value="" />
+            </div>
+            <div id="" class="col-md-4 col-sm-4 form-group">
+                <label for="" class="">Email <span class="text-red">*</span></label>
+                <input id="" class="form-control" name="" type="email" value="" />
+            </div>
+            <div id="" class="col-md-4 col-sm-4 form-group">
+                <label for="" class="">Loại phòng</label>
+                <input id="" class="form-control" name="" type="text" value="" />
+            </div>
+            <div id="" class="col-md-4 col-sm-4 form-group">
+                <label for="" class="">Số người (Tổng)</label>
+                <input id="" class="form-control" name="" type="number" value="" />
+            </div>
+            <div id="" class="col-md-4 col-sm-4 form-group">
+                <label for="" class="">Số trẻ em</label>
+                <input id="" class="form-control" name="" type="number" value="" />
+            </div>
+            <div id="" class="col-md-4 col-sm-4 form-group">
+                <label for="" class="">Ngày đi</label>
+                <div class='input-group date' id=''>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+            <div id="" class="col-md-4 col-sm-4 form-group">
+                <label for="" class="">Ngày về</label>
+                <div class='input-group date' id=''>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+            <div id="" class="col-md-4 col-sm-4 form-group col-btn-book">
+                <label for="" class=""></label>
+                <input id="btn-book" class="btn btn-info" type="button" value="BOOK NOW">
+            </div>
+        </form>
         </div>
       </div>
     </div>
   </div>
 
+  <div style="height: 1000px;"></div>
   <script src="src/js/jquery.min.js"></script>
   <script src="src/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/locale/vi.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <script src="src/js/myscript.js"></script>
 </body>
 
 </html>
