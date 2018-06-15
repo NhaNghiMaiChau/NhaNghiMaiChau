@@ -45,6 +45,26 @@ html {
 
 }
 
+/* col-lg */
+/* col-md */
+@media screen and (min-width: 992px){
+  .menu_bar .menu ul li a {
+    font-size: 14px;
+  }
+}
+
+/* col-sm */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .menu_bar .menu ul li a {
+    font-size: 11px;
+  }
+}
+/* col-xs */
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .menu_bar .menu ul li a {
+    font-size: 8px;
+  }
+}
 
 /*body {
     width: 1200px;
@@ -52,10 +72,10 @@ html {
     position: relative;
 }*/
 
-.container {
+/* .container {
     width: 1200px;
     margin: 0 auto;
-}
+} */
 
 .top_bar {
     width: 100%;
@@ -203,7 +223,6 @@ ul >li >ul>li>a{
 }
 
 .menu_bar .menu ul li a{
-  font-size: 14px;
   color: white !important;
   padding: 0px !important;
   text-transform: uppercase !important;
