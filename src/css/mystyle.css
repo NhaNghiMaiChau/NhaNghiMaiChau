@@ -29,8 +29,8 @@ html {
 
 @font-face {
     font-family: 'robotoregular';
-    src: url('fonts/roboto-regular-webfont.woff2') format('woff2'),
-         url('fonts/roboto-regular-webfont.woff') format('woff');
+    src: url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+         url('../fonts/glyphicons-halflings-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -38,8 +38,8 @@ html {
 
 @font-face {
     font-family: 'robotomedium';
-    src: url('fonts/roboto-medium-webfont.woff2') format('woff2'),
-         url('fonts/roboto-medium-webfont.woff') format('woff');
+    src: url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+         url('../fonts/glyphicons-halflings-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -51,6 +51,10 @@ html {
   .menu_bar .menu ul li a {
     font-size: 14px;
   }
+
+  #btn-book{
+    font-size: 20px;
+  }
 }
 
 /* col-sm */
@@ -58,12 +62,56 @@ html {
   .menu_bar .menu ul li a {
     font-size: 11px;
   }
+  
+  #btn-book{
+    font-size: 17px;
+  }
 }
 /* col-xs */
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .menu_bar .menu ul li a {
     font-size: 8px;
   }
+  
+  #btn-book{
+    font-size: 14px;
+  }
+
+  .col-btn-book{
+    padding-left: 25% !important;
+    padding-right: 25% !important;
+  }
+}
+
+#btn-book{
+  /* padding: 5px 35%; */
+  background: #7195ec;
+  color: #fff;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+input {
+  min-width: 100%;
+  max-width: 100%;
+  border: none;
+}
+
+.booking_form{
+  background: transparent !important;
+  /* height: 210px; */
+  margin: 0 auto;
+  max-width: 100%;
+  overflow: hidden;
+  border: 1px #f8945566 solid;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 15px 0px 15px 0px;
+}
+
+.text-red{
+  color: red;
 }
 
 /*body {
@@ -317,7 +365,7 @@ ul >li >ul>li>a{
   width: 100%;
   /*height: 1800px;*/
   overflow: hidden;
-  background-image: url("img/bg_main.jpg");
+  background-image: url("../img/bg_main.jpg");
   background-color: #fcfcfc;
   background-repeat: no-repeat;
   background-position: center top; 
@@ -371,7 +419,7 @@ ul >li >ul>li>a{
   width: 100%;
   /*height: 1848px;*/
   overflow: hidden;
-  background-image: url("img/bg_main.jpg");
+  background-image: url("../img/bg_main.jpg");
   background-color: #fcfcfc;
   background-repeat: no-repeat;
   background-position: center top; 
