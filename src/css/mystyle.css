@@ -56,6 +56,15 @@ html {
   #btn-book{
     font-size: 20px;
   }
+
+  .img-vip{
+    height: 490px !important;
+    width: auto;
+    background-image: url("https://dummyimage.com/1170x490/");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 }
 
 /* col-sm */
@@ -66,6 +75,15 @@ html {
   
   #btn-book{
     font-size: 17px;
+  }
+
+  .img-vip{
+    height: 490px !important;
+    width: auto;
+    background-image: url("https://dummyimage.com/1170x490/");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
 }
 /* col-xs */
@@ -81,6 +99,15 @@ html {
   .col-btn-book{
     padding-left: 25% !important;
     padding-right: 25% !important;
+  }
+
+  .img-vip{
+    height: 270px !important;
+    width: auto;
+    background-image: url("https://dummyimage.com/700x493/");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
 }
 
@@ -119,6 +146,22 @@ input{
 
 .carousel-control.left, .carousel-control.right{
   background-image:none !important;
+}
+
+ul {
+  list-style: none;
+  margin-left: 1em;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: "-";
+  padding-right: 5px;
 }
 
 /*body {
@@ -376,6 +419,8 @@ ul >li >ul>li>a{
   background-color: #fcfcfc;
   background-repeat: no-repeat;
   background-position: center top; 
+  background-size: cover; 
+  background-position: center;
 }
 
 .content_pages .content_page_gioithieu {
@@ -430,6 +475,8 @@ ul >li >ul>li>a{
   background-color: #fcfcfc;
   background-repeat: no-repeat;
   background-position: center top; 
+  background-size: cover; 
+  background-position: center;
 }
 
 .content_homepage .gioithieu_area {
