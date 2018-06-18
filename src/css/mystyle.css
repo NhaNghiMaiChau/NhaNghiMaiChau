@@ -768,7 +768,7 @@ ul >li >ul>li>a{
   /*height: 1048px;*/
   padding-top: 50px;
   overflow: hidden;
-  background-image: url("img/bg_footer.jpg");
+  background-image: url("../img/bg_footer.jpg");
   background-color: #fcfcfc;
   background-repeat: no-repeat;
   background-position: center top; 
