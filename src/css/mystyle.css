@@ -59,7 +59,7 @@ html {
 
   .img-vip{
     height: 490px !important;
-    width: auto;
+    width: auto !important;
     background-image: url("https://dummyimage.com/1170x490/");
     background-size: cover;
     background-repeat: no-repeat;
@@ -79,11 +79,11 @@ html {
 
   .img-vip{
     height: 490px !important;
-    width: auto;
-    background-image: url("https://dummyimage.com/1170x490/");
+    width: auto !important;
+    background-image: url("https://dummyimage.com/700x493/");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
   }
 }
 /* col-xs */
@@ -103,11 +103,11 @@ html {
 
   .img-vip{
     height: 270px !important;
-    width: auto;
+    width: auto !important;
     background-image: url("https://dummyimage.com/700x493/");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
   }
 }
 
@@ -585,8 +585,7 @@ ul >li >ul>li>a{
 }
 
 .content_homepage .hethongphong_area .room_items .info_room_items p button:hover{
-  background: #ffff00;
-  
+  background: #cc001c;
 }
 
 .content_homepage .hethongphong_area .room_items .info_room_items p button a{
