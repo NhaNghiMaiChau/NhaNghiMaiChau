@@ -148,18 +148,18 @@ input{
   background-image:none !important;
 }
 
-ul {
+.gioithieu_area ul {
   list-style: none;
   margin-left: 1em;
   padding-left: 0;
 }
 
-li {
+.gioithieu_area li {
   padding-left: 1em;
   text-indent: -1em;
 }
 
-li:before {
+.gioithieu_area li:before {
   content: "-";
   padding-right: 5px;
 }
