@@ -118,41 +118,41 @@
             <span class="text-red">*</span>) là bắt buộc</i>
         </p>
         <div>
-          <form>
+          <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="nhanghimaichau@email.net" action="https://script.google.com/macros/s/AKfycby10RpMy2Fm-KKmfeyewOtrAI5SoouBEYSYIAplGg/exec">
             <div id="" class="col-md-4 col-sm-4 form-group">
               <label for="" class="">Họ và tên
                 <span class="text-red">*</span>
               </label>
-              <input id="" class="form-control" name="" type="text" value="" />
+              <input id="name" name="name" class="form-control" type="text" value="" />
             </div>
             <div id="" class="col-md-4 col-sm-4 form-group">
               <label for="" class="">Điện thoại
                 <span class="text-red">*</span>
               </label>
-              <input id="" class="form-control" name="" type="text" value="" />
+              <input id="phone" name="phone" class="form-control" type="text" value="" />
             </div>
             <div id="" class="col-md-4 col-sm-4 form-group">
               <label for="" class="">Email
                 <span class="text-red">*</span>
               </label>
-              <input id="" class="form-control" name="" type="email" value="" />
+              <input id="email" name="email" class="form-control" type="email" value="" />
             </div>
             <div id="" class="col-md-4 col-sm-4 form-group">
               <label for="" class="">Loại phòng</label>
-              <input id="" class="form-control" name="" type="text" value="" />
+              <input id="type" name="type" class="form-control" type="text" value="" />
             </div>
             <div id="" class="col-md-4 col-sm-4 form-group">
               <label for="" class="">Số người (Tổng)</label>
-              <input id="" class="form-control" name="" type="number" value="" />
+              <input id="persons" name="persons" class="form-control" type="number" value="" />
             </div>
             <div id="" class="col-md-4 col-sm-4 form-group">
               <label for="" class="">Số trẻ em</label>
-              <input id="" class="form-control" name="" type="number" value="" />
+              <input id="childrens" name="childrens" class="form-control" type="number" value="" />
             </div>
             <div id="" class="col-md-4 col-sm-4 form-group">
               <label for="" class="">Ngày đi</label>
               <div class='input-group date' id=''>
-                <input type='text' class="form-control" />
+                <input id="from" name="from" input type='text' class="form-control"/>
                 <span class="input-group-addon">
                   <span class="glyphicon glyphicon-calendar"></span>
                 </span>
@@ -161,7 +161,7 @@
             <div id="" class="col-md-4 col-sm-4 form-group">
               <label for="" class="">Ngày về</label>
               <div class='input-group date' id=''>
-                <input type='text' class="form-control" />
+                <input id="to" name="to" input type='text' class="form-control"/>
                 <span class="input-group-addon">
                   <span class="glyphicon glyphicon-calendar"></span>
                 </span>
@@ -169,9 +169,14 @@
             </div>
             <div id="" class="col-md-4 col-sm-4 form-group col-btn-book">
               <label for="" class=""></label>
-              <input id="btn-book" class="btn btn-info" type="button" value="BOOK NOW">
+              <button id="btn-book" class="btn btn-info">
+                <i class="fa fa-paper-plane"></i>Book Now
+              </button>
             </div>
           </form>
+          <div style="display:none;" id="thankyou_message">
+            <h3 class="text-red"><em>Xin cảm ơn! Chúng tôi sẽ sớm liên lạc với bạn.</em></h3>
+          </div>
         </div>
       </div>
     </div>
@@ -394,6 +399,7 @@
   <script src="src/js/moment.js"></script>
   <script src="src/js/bootstrap-datetimepicker.min.js"></script>
   <script src="src/js/myscript.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="src/js/form-submission-handler.js"></script>
 </body>
 
 </html>
