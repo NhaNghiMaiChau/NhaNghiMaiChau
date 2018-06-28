@@ -1,6 +1,9 @@
+titles:
+  home: "Homepage - Tuan Anh Hostel"
+
 menu:
   home_page: 'Home page'
-  introduce: 'Giới Thiệu'
-  room_system: 'Hệ Thống Phòng'
-  service: 'Dịch Vụ'
-  contact: 'Liên Hệ'
+  introduce: 'Introduce'
+  room_system: 'Room System'
+  service: 'Service'
+  contact: 'Contact'
