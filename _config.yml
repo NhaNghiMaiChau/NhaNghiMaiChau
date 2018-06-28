@@ -1,6 +1,6 @@
-baseurl: ""
+baseurl: "" #"https://nhanghituananh.github.io/"
 
 languages: ["vi","en"]
 exclude_from_localizations: ["javascript", "images", "css"]
-gems: 
+plugins: 
   - jekyll-multiple-languages-plugin

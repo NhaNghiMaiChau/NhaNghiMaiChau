@@ -1,9 +1,8 @@
-# If you've just forked the repo,
-# please remove the content above and uncomment the following before bundling.
-
 source "https://rubygems.org"
+# gemspec
 
 gem 'jekyll'
+# gem "github-pages"
 
 group :jekyll_plugins do
   gem 'jekyll-feed'
