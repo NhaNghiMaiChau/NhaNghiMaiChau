@@ -1,0 +1,6 @@
+baseurl: ""
+
+languages: ["vi","en"]
+exclude_from_localizations: ["javascript", "images", "css"]
+gems: 
+  - jekyll-multiple-languages-plugin
