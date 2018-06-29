@@ -2,6 +2,7 @@
 .bundle
 .sass-cache
 _site
+Gemfile.lock
 
 Thumbs.db
 .DS_Store
