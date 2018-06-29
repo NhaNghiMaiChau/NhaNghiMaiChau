@@ -1,5 +1,5 @@
 titles:
-  home: "Trang chủ - Nhà Nghỉ Tuấn Anh"
+  home: "Trang chủ _ Nhà Nghỉ Tuấn Anh"
 
 menu:
   home_page: 'Trang Chủ'
@@ -7,4 +7,46 @@ menu:
   room_system: 'Hệ Thống Phòng'
   service: 'Dịch Vụ'
   contact: 'Liên Hệ'
+
+footer:
+  header_name: 'NHÀ NGHỈ TUẤN ANH'
+  detail: 'Hỗ Trợ 24/24 '
+  phone_01: 'Sđt - zalo:'
+  phone_02: 'Sđt - zalo:'
+  tel_label_01: '0915.694.871 ( A. Tuấn Anh )'
+  tel_label_02: '0972.248.487 ( Chị Hiền )'
+  address_label: 'Địa chỉ: '
+  address: 'Nhà Nghỉ Tuấn Anh, Khu Hồ Mỏ Luông, Mai Châu, Hòa Bình.'
+
+booking:
+  booking: 'Đặt Phòng'
+  note_1: 'Các trường được đánh dấu '
+  note_2: ' là bắt buộc'
+  full_name: 'Họ và tên'
+  phone: 'Điện thoại'
+  email: 'Email'
+  type: 'Loại phòng'
+  type_option_01: 'Một giường đôi'
+  type_option_02: 'Hai giường đôi'
+  type_option_03: 'Ba giường đôi'
+  type_option_04: 'Phòng VIP'
+  persons: 'Số người (Tổng)'
+  childrens: 'Số trẻ em'
+  from: 'Ngày đi'
+  to: 'Ngày về'
+  book_now: 'Đặt Phòng'
+  thank_you: 'Xin cảm ơn! Chúng tôi sẽ sớm liên lạc với bạn.'
+
+introduce:
+  header: 'Nhà nghỉ Tuấn Anh'
+  detail: 'Kính chào quý khách'
+
+room_system:
+  header: 'Hệ Thống Phòng'
+  detail: 'Đảm bảo uy tín, chất lượng, giá cả hợp lý.'
+  type_01: 'Một giường đôi'
+  type_02: 'Hai giường đôi'
+  type_03: 'Ba giường đôi'
+  type_04: 'Phòng VIP'
+  book_now: 'Đặt ngay'
 

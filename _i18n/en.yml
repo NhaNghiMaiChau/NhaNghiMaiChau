@@ -1,5 +1,5 @@
 titles:
-  home: "Homepage - Tuan Anh Hostel"
+  home: "Homepage _ Tuan Anh Hostel"
 
 menu:
   home_page: 'Home page'
@@ -7,3 +7,45 @@ menu:
   room_system: 'Room System'
   service: 'Service'
   contact: 'Contact'
+
+footer:
+  header_name: 'TUAN ANH HOSTEL'
+  detail: 'Suport 24/24 '
+  phone_01: 'Phone - zalo:'
+  phone_02: 'Phone - zalo:'
+  tel_label_01: '0915.694.871 ( Mr. Tuan Anh )'
+  tel_label_02: '0972.248.487 ( Mrs. Hien )'
+  address_label: 'Address: '
+  address: 'Tuan Anh hostel, Mo Luong Lake area, Mai Chau, Hoa Binh.'
+
+booking:
+  booking: 'Booking'
+  note_1: 'All fields with '
+  note_2: ' are required'
+  full_name: 'Full name'
+  phone: 'Phone number'
+  email: 'Email'
+  type: 'Type of room'
+  type_option_01: 'Twin room'
+  type_option_02: 'Room with two double beds'
+  type_option_03: 'Room with three double beds'
+  type_option_04: 'VIP room'
+  persons: 'Total persons'
+  childrens: 'Total childrens'
+  from: 'From date'
+  to: 'To date'
+  book_now: 'Book Now'
+  thank_you: 'Thank you! We will contact you soon.'
+
+introduce:
+  header: 'Tuan Anh hostel'
+  detail: 'Wellcome to you'
+
+room_system:
+  header: 'Room system'
+  detail: 'Ensuring the prestige, quality, reasonable price.'
+  type_01: 'Twin room'
+  type_02: 'Room with two double beds'
+  type_03: 'Room with three double beds'
+  type_04: 'VIP room'
+  book_now: 'Book now'

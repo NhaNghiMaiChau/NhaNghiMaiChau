@@ -7,29 +7,29 @@
             <!-- <img src="src/img/logo.png"> -->
           </p>
           <p></p>
-          <p class="name_footer">NHÀ NGHỈ TUẤN ANH</p>
+          <p class="name_footer">{% t footer.header_name %}</p>
           <p>
             <i class="fa fa-mobile" aria-hidden="true"></i>
-            <b>Hỗ Trợ 24/24 </b>
+            <b>{% t footer.detail %}</b>
           </p>
           <p class="">
-            Sđt - zalo:
-            <a href="tel:0915694871">0915.694.871 ( A. Tuấn Anh )</a>
+            {% t footer.phone_01 %}
+            <a href="{{ site.constant.tel_01 }}">{% t footer.tel_label_01 %}</a>
           </p>
           <p class="">
-            Sđt - zalo:
-            <a href="tel:0972248487 ">0972.248.487 ( Chị Hiền )</a>
+            {% t footer.phone_02 %}
+            <a href="{{ site.constant.tel_02 }}">{% t footer.tel_label_02 %}</a>
           </p>
         </div>
         <div class="col-md-7 footer_right">
           <p></p>
-          <p class="diachi_footer">Địa chỉ: </p>
-          <p>Nhà Nghỉ Tuấn Anh, Khu Hồ Mỏ Luông, Mai Châu, Hòa Bình.</p>
+          <p class="diachi_footer">{% t footer.address_label %} </p>
+          <p>{% t footer.address %}</p>
           <p>
-            <i class="fa fa-envelope" aria-hidden="true"></i><b> Mail : <a href="mailto:NhaNghiTuanAnh1978@gmail.com?Subject=Book%20Room">NhaNghiTuanAnh1978@gmail.com</b></a></p>
-          <p><b>Website: <a href="http://NhaNghiTuanAnh.github.io/">NhaNghiTuanAnh.github.io</a></b></p>
+            <i class="fa fa-envelope" aria-hidden="true"></i><b> Mail : <a href="{{ site.constant.mail_to }}">NhaNghiTuanAnh1978@gmail.com</b></a></p>
+          <p><b>Website: <a href="{{ site.constant.site_label }}">{{ site.constant.site_href }}</a></b></p>
           <p>
-            <iframe style="border: 0;" src="https://maps.google.com/maps?q=Kh%C3%A1ch%20S%E1%BA%A1n%20Tu%E1%BA%A5n%20Anh%20Khu%20H%E1%BB%93%2C%20Mai%20Ch%C3%A2u%20District%2C%20Hoa%20Binh&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            <iframe style="border: 0;" src="{{ site.constant.iframe_map_link }}"
               width="100%" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
           </p>
         </div>

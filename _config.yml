@@ -1,6 +1,16 @@
 baseurl: "" #"https://nhanghituananh.github.io/"
+encoding: utf-8
 
 languages: ["vi","en"]
 # exclude_from_localizations: ["javascript", "images", "css"]
 plugins: 
   - jekyll-multiple-languages-plugin
+
+constant:
+  mail_to: 'mailto:NhaNghiTuanAnh1978@gmail.com?Subject=Book%20Room'
+  site_label: 'NhaNghiTuanAnh.github.io'
+  site_href: 'http://NhaNghiTuanAnh.github.io/'
+  iframe_map_link: 'https://maps.google.com/maps?q=Kh%C3%A1ch%20S%E1%BA%A1n%20Tu%E1%BA%A5n%20Anh%20Khu%20H%E1%BB%93%2C%20Mai%20Ch%C3%A2u%20District%2C%20Hoa%20Binh&t=&z=15&ie=UTF8&iwloc=&output=embed'
+  tel_01: 'tel:0915694871'
+  tel_02: 'tel:0972248487'
+  img_introduce: 'src/img/main-content.jpg'
