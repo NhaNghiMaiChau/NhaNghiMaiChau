@@ -2,6 +2,7 @@
 .bundle
 .sass-cache
 _site
+psd
 Gemfile.lock
 
 Thumbs.db
