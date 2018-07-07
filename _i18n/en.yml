@@ -1,5 +1,8 @@
 titles:
-  home: "Homepage _ Tuan Anh Hostel"
+  home: "Homepage - Tuan Anh Hostel"
+  service: "Service - Tuan Anh Hostel"
+  introduce: "Introduce - Tuan Anh Hostel"
+  room-system: "Room system - Tuan Anh Hostel"
 
 menu:
   home_page: 'Home page'
