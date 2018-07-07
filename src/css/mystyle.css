@@ -60,7 +60,7 @@ html {
   .img-vip{
     height: 490px !important;
     width: auto !important;
-    background-image: url("../img/vip-md.jpg");
+    background-image: url("../img/vip-md-070718.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -80,7 +80,7 @@ html {
   .img-vip{
     height: 490px !important;
     width: auto !important;
-    background-image: url("../img/vip-xs.jpg");
+    background-image: url("../img/vip-xs-070718.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -104,7 +104,7 @@ html {
   .img-vip{
     height: 270px !important;
     width: auto !important;
-    background-image: url("../img/vip-xs.jpg");
+    background-image: url("../img/vip-xs-070718.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
